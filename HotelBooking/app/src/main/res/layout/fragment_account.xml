@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/sontung"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="20dp"
+        />
+
+    <Button
+        android:id="@+id/bt_changeprofile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sửa thông tin cá nhân"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="150dp"
+        />
+
+    <Button
+        android:id="@+id/bt_changepassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Đổi mật khẩu"
+        android:layout_marginLeft="130dp"
+        android:layout_marginTop="230dp"
+        />
+
+</RelativeLayout>

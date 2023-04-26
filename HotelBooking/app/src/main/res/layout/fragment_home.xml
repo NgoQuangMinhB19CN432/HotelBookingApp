@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragment.HomeFragment">
+
+    <LinearLayout
+        android:id="@+id/linear"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/white"
+        android:orientation="vertical">
+
+        <SearchView
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:queryHint="Nhập tên địa điểm cần tìm"
+            android:background="@color/black"
+            />
+
+    </LinearLayout>
+    
+    <TextView
+        android:id="@+id/tvdexuat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/linear"
+        android:text="Nổi bật"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:padding="10dp"
+
+        />
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rcv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvdexuat"
+        android:padding="10dp" />
+
+</RelativeLayout>
